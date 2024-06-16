@@ -1,0 +1,2 @@
+# npm-sample
+commonjsとesmパッケージのサンプル
