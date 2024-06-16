@@ -1,0 +1,29 @@
+{
+  "name": "@ritogk/module-esm",
+  "version": "1.0.5",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "node-start": "node dist/main.js",
+    "types": "tsc --emitDeclarationOnly"
+  },
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": "git@github.com:ritogk/sample.git",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "esbuild": "0.21.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

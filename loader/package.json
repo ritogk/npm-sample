@@ -1,0 +1,25 @@
+{
+  "name": "loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "build": "tsc",
+    "start-2": "node ./dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "esbuild": "0.21.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@ritogk/module-commonjs": "^1.0.4",
+    "@ritogk/module-esm": "^1.0.4",
+    "lodash": "^4.17.21"
+  }
+}
